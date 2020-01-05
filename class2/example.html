@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="title" content="第二节课作业">
+    <meta name="description" content="第二节课作业的描述">
+    <meta name="keywords" content="作业,第二节课,编程">
+    <meta name="author" content="Peter Zheng">
+    <link rel="icon"
+      href="https://res.cloudinary.com/dtgh01qqo/image/upload/v1578175147/FutureSphere/%E6%9C%AA%E6%9D%A5%E9%A2%86%E5%9F%9F.png">
+
+    <title>作业范例</title>
+  </head>
+
+  <body>
+    <nav>
+      <img
+        src="https://res.cloudinary.com/dtgh01qqo/image/upload/v1578112543/FutureSphere/logo%E9%95%BF%E6%96%B9%E5%BD%A2%E9%80%8F%E6%98%8E%E8%83%8C%E6%99%AF.png"
+        alt="Logo" height="50">
+      <ul>
+        <li><a href="./index.html">首页</a></li>
+        <li><a href="https://google.com">Google</a></li>
+        <li><a href="https://facebook.com">Facebook</a></li>
+        <li><a href="https://amazon.com">Amazon</a></li>
+      </ul>
+      <h1>
+        大家好，欢迎来到<a href="https://thefuturesphere.com/">未来领域</a>!
+      </h1>
+      <p>
+        未来领域是一家针对美国华人的科技教育机构，为美国华人提供专业的编程技能培训，面对面线下精品小班教学，找不到工作不交学费！精挑细选，量身定制，为您引导职业走向。稳扎稳打，循序渐进，为您夯实技能储备。
+      </p>
+      <hr />
+    </nav>
+    <div>
+      <h3>我们的教室在长岛市</h3>
+      <img
+        src="https://www1.nyc.gov/assets/queenscb2/images/content/pages/lic.jpg"
+        height="300" />
+      <img
+        src="https://res.cloudinary.com/dtgh01qqo/image/upload/v1577467857/FutureSphere/wework/LIC_GOT_BOOKS.jpg"
+        height="300" alt="wework1">
+      <img
+        src="https://res.cloudinary.com/dtgh01qqo/image/upload/v1577467857/FutureSphere/wework/LIC_GOT_LOUNGE.jpg"
+        height="300" alt="wework2">
+      <iframe width="560" height="315"
+        src="https://www.youtube.com/embed/VGosZWBTF7A" frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+      <h3>我们的课程有：</h3>
+      <ul>
+        <li>
+          网络编程基础课
+        </li>
+        <li>
+          网络编程进阶课
+        </li>
+        <li>
+          前端工程
+        </li>
+        <li>
+          后端工程
+        </li>
+      </ul>
+    </div>
+    <div>
+      <div id="demo"></div>
+      <button onclick="getLocation()">Click to show Coords</button>
+    </div>
+    <footer>
+      <hr />
+      <div>
+        <h1>
+          请留下你的联系方式
+        </h1>
+        <form>
+          <label>电子邮箱:</label><br>
+          <input type="email"><br>
+          <label>电话:</label><br>
+          <input type="phone"><br>
+          <label>名字:</label><br>
+          <input type="text"><br>
+          <label>母语：</label><br>
+          <input type="text" readonly value="中文">
+          <button onclick="alert('hello world')">提交</button>
+        </form>
+      </div>
+    </footer>
+
+    <script>
+      var x = document.getElementById("demo");
+      function getLocation() {
+        if (navigator.geolocation) {
+          navigator.geolocation.watchPosition(showPosition);
+        } else {
+          x.innerHTML = "Geolocation is not supported by this browser.";
+        }
+      }
+      function showPosition(position) {
+        x.innerHTML = "Latitude: " + position.coords.latitude +
+          "<br>Longitude: " + position.coords.longitude;
+      }
+    </script>
+
+  </body>
+
+</html>
