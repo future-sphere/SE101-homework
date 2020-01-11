@@ -1,0 +1,71 @@
+header {
+  font-size: 55px;
+  color: goldenrod;
+  background-image: url(flag.jpg);
+  margin-bottom: 0;
+}
+.navbar {
+  width: 100%;
+  height: 100vh;
+  background-image: url(dajiba.jpg);
+  background-size: cover;
+  margin-top: 0;
+}
+div ul {
+  display: flex;
+}
+div ul li {
+  list-style: none;
+}
+div ul li a {
+  padding: 50px;
+  text-decoration: none;
+  color: goldenrod;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 40px;
+}
+.number {
+  color: goldenrod;
+  font-size: 70px;
+  text-align: center;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.whoWeAre {
+  color: goldenrod;
+  background-image: url(yellow.jpg);
+}
+.whatWeDo {
+  color: red;
+  background-image: url(green.jpg);
+}
+.becomeOneOfUs {
+  color: goldenrod;
+  background-image: url(yellow.jpg);
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: goldenrod;
+}
+
+.location {
+  color: gold;
+  display: block;
+  margin: auto;
+  font-size: 25px;
+  border: burlywood 2px solid;
+  padding: 16px 32px;
+  border-radius: 12px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
