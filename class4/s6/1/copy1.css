@@ -1,0 +1,190 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  width: 100%;
+}
+
+.navbar-title {
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  font-weight: 700;
+  color: #fff;
+  padding-left: 60px;
+}
+
+.navbar-links ul {
+  display: flex;
+  margin-right: 60px;
+}
+
+.navbar-links li {
+  list-style: none;
+}
+
+.navbar-links li a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 700;
+  font-size: 0.8rem;
+  letter-spacing: 0.1rem;
+  line-height: 1.5;
+  padding: 0.5rem 1rem;
+}
+
+.navbar-links li a:hover {
+  color: #fff;
+}
+
+.toggle-button {
+  position: absolute;
+  top: 5px;
+  right: 0;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 0.5rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+
+.toggle-button .bar {
+  height: 3px;
+  widows: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+}
+@media (max-width: 580px) {
+  .toggle-button {
+    display: flex;
+  }
+
+  .navbar-links {
+    width: 100%;
+    display: none;
+  }
+  .navbar {
+    padding: 20px 0px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-links ul {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .navbar-links li {
+    padding: 15px;
+    text-align: center;
+  }
+
+  .navbar-links.active {
+    display: flex;
+  }
+}
+.home .home-text {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(0deg, #ff6a00 0, #ee0979 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.home-text h1 {
+  margin: 0;
+  font-family: "Catamaran", sans-serif;
+  font-size: 6rem;
+  font-weight: 800;
+  color: #fff;
+}
+
+.home .home-text h2 {
+  color: #fff;
+  font-family: "Catamaran", sans-serif;
+  font-size: 4rem;
+  margin: 0;
+}
+
+.home-text a {
+  background-color: #ffc107;
+  border-radius: 50rem;
+  margin-top: 30px;
+  text-transform: uppercase;
+  padding: 1.5rem 3rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.home-text a:hover {
+  background-color: #b48803;
+}
+.mainbody {
+  display: flex;
+  justify-content: center;
+  max-width: 1140px;
+  margin: auto;
+  margin-bottom: 50px;
+  align-items: center;
+}
+
+.main-text {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 100px;
+}
+
+.picture img {
+  border-radius: 50%;
+  width: 444px;
+  height: 444px;
+}
+
+.main2 .picture img {
+  margin-left: 100px;
+}
+
+section div h2 {
+  font-size: 3.5rem;
+  line-height: 1.2;
+  font-weight: 800;
+  font-family: "Catamaran", sans-serif;
+  /* max-width: 444px; */
+  margin: 0;
+}
+
+section div p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  font-family: "Lato", sans-serif;
+  max-width: 444px;
+}
+.footer {
+  text-align: center;
+  padding: 40px 0;
+  background-color: black;
+  color: #fff;
+  font-size: 80%;
+  font-weight: 400;
+}
