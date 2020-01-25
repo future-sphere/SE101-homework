@@ -1,0 +1,183 @@
+body {
+  margin: 0;
+  background-color: #006bff;
+  background: linear-gradient(to right, #0062e6, #33aeff);
+  display: flex;
+  justify-content: center;
+}
+
+.home-signin-container {
+  background-color: #fff;
+  margin: 48px 0;
+  width: 443px;
+  border-radius: 3.8px;
+}
+
+.home-signin-body {
+  width: 379px;
+  height: 448px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  flex: auto 1 1;
+}
+
+h5 {
+  font-size: 24px;
+  font-weight: 300;
+  font-family: "Segoe UI", sans-serif;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 32px;
+}
+
+form {
+  width: 379px;
+}
+.home-signin-container form {
+  display: flex; /* flexbox 必要的排版代码 */
+  flex-direction: column; /* 竖着排 */
+  align-items: center; /* 从垂直居中变成水平居中 */
+}
+
+.form-container {
+  margin-bottom: 15px;
+  background-clip: padding-box;
+  cursor: text;
+}
+
+input {
+  border-radius: 40px;
+  width: 274px;
+  height: 24px;
+  outline: none;
+}
+
+input:focus {
+  border-color: #80bdff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.form-container-info {
+  width: 329px;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 400;
+  border: 1px solid #ced4da;
+  color: #495057;
+}
+
+#signin-checkbox {
+  width: 355px;
+  padding: 16px;
+  border: 1px;
+  background-color: rgb(0, 123, 255);
+  border-radius: 40px;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+  color: rgb(255, 255, 255);
+  letter-spacing: 1.6px;
+  font-size: 12.8px;
+}
+
+#checkbar {
+  height: 14px;
+  width: 14px;
+}
+hr {
+  margin: 24px 0;
+}
+
+.form-button {
+  width: 379px;
+  font-size: 80%;
+  font-weight: bold;
+  padding: 16px;
+  outline: none;
+  outline-style: none;
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid transparent;
+  font-family: "Segoe UI", sans-serif;
+  letter-spacing: 1.5px;
+}
+.form-container-button {
+  width: 379px;
+  height: 53px;
+  padding: 16px;
+  background-color: #007bff;
+  font-size: 13px;
+  color: #fff;
+  letter-spacing: 1.5px;
+  font-weight: bold;
+  border-color: #007bff;
+  border-radius: 40px;
+  vertical-align: middle;
+}
+.form-sign-checkbox {
+  width: 379px;
+  padding: 0 24px;
+  margin-bottom: 16px;
+  margin-top: 0px;
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+
+.form-container-info .form-label::before {
+  border-radius: 4px;
+}
+
+.signin-checkbox {
+  width: fit-content;
+  display: flex;
+  justify-content: start;
+  position: relative;
+  left: 4px;
+  background-color: blue;
+}
+
+.form-label::before {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 4px;
+  left: -24px;
+  display: block;
+  pointer-events: none;
+  background-color: #fff;
+  border: #adb5bd solid 1px;
+  margin: 3 2.895;
+}
+
+.form-lable::after {
+  position: absolute;
+  top: 0.4px;
+  left: 24px;
+  display: block;
+  width: 16px;
+  height: 19px;
+  content: "";
+  background: no-repeat 50%/50% 50%;
+}
+
+.form-label {
+  font-family: "Segoe UI", sans-serif;
+  position: relative;
+  left: 8px;
+  top: 3px;
+}
+#btn-block {
+  margin-top: 8px;
+}
+
+i {
+  width: 10;
+  height: 12px;
+  margin-right: 8px;
+}
+
+.form-container-button:hover {
+  background-color: #0069d9;
+}

@@ -1,0 +1,83 @@
+body{
+    background-color: blue;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 368px;
+    height: 512px;
+    background-color: white;
+    margin-top: 50px;
+}
+
+.container-top{
+    width: 80%;
+    height: 70%;
+    margin: auto;
+    border-bottom: 1px solid grey;
+    text-align: center;
+}
+
+form{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+}
+
+
+.form-checkbox{
+    display: flex;
+    width: 100%;
+}
+
+.form-checkbox p{
+    width: 70%;
+    margin: auto;
+    font-size: 20px;
+    margin-left: 0px;
+    padding-bottom: 0.5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+}
+
+.container-bottom{
+    width: 80%;
+    height: 30%;
+    margin: auto;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+}
+
+
+.form-text{
+border-radius: 20px;
+padding: 15px;
+font-size: 16px;
+border: 1px solid grey;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.container-signin{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button{
+    background-color: #007bff;
+    font-size: 16px;
+    padding: 15px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+

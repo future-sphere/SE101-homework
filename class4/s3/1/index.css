@@ -1,0 +1,72 @@
+body {
+  background-color: black;
+  color: blanchedalmond;
+  margin: 0px;
+}
+
+.home-banner-container {
+  background-image: url(https://www.tomorrowland.com/src/Frontend/Themes/tomorrowland/Core/Layout/images/timeline/2019-9.jpg);
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  opacity: 0.7;
+}
+
+.home-content-wrapper {
+  padding: 20px;
+  text-align: center;
+  margin: 0px;
+}
+
+.home-tittle-container {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 30%;
+  bottom: 50%;
+  font-size: 120px;
+}
+
+.home-img-container {
+  display: inline;
+}
+
+.home-2018-container {
+  font-size: large;
+  padding-right: 21%;
+}
+
+.home-2019-container {
+  font-size: large;
+  padding-left: 21%;
+}
+
+.home-combine-container {
+  text-align: center;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.home-footer-container {
+  display: flex;
+  justify-content: center;
+}
+
+.home-footer-ul-container {
+  display: flex;
+  list-style-type: none;
+  padding-right: 45px;
+}
+
+.home-footer-ul-container li {
+  margin: 0px 10px;
+}
+
+.home-footer-ul-container li a {
+  text-decoration: none;
+  color: blanchedalmond;
+}

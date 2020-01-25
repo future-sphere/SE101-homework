@@ -1,0 +1,101 @@
+.home-nav-wrapper {
+  width: 100%;
+  max-width: 1064px;
+}
+.home-nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home-nav-logo {
+  margin: 20px 40px;
+  align-content: center;
+}
+.home-nav-banner {
+  justify-content: space-between;
+  display: flex;
+}
+
+.banner {
+  margin-left: 30px;
+  text-decoration: none;
+  color: grey;
+  letter-spacing: 3px;
+}
+
+body {
+  max-width: 1067px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.banner:hover {
+  color: darkgrey;
+}
+.findUs {
+  padding: 15px;
+}
+
+h1 {
+  text-align: center;
+  color: grey;
+  font-size: 50px;
+  font-family: "Arimo" sans-serif;
+}
+
+.home-body-intro {
+  border-style: dotted;
+  border-radius: 2em;
+  border-color: lightgrey;
+}
+
+h3 {
+  color: darkgray;
+  padding: 20px;
+  text-align: center;
+  font-family: "Arimo" sans-serif;
+}
+
+.home-image-container {
+  width: 100%;
+  align-content: center;
+}
+
+.home-body-image {
+  align-content: center;
+  border-color: black;
+  justify-content: space-around;
+}
+
+.pictures {
+  padding: 20px 20px;
+  width: 250px;
+  height: 250px;
+}
+
+.fab {
+  padding-right: 15px;
+}
+
+#mainFooter {
+  text-align: center;
+  color: darkgray;
+}
+
+.home-nav-header {
+  font-size: 20px;
+  padding-left: 45%;
+  display: inline;
+}
+
+.socialMedia {
+  list-style-type: none;
+}
+
+.title {
+  padding-left: 20px;
+  font: italic;
+}
+.information {
+  padding-left: 70px;
+}

@@ -1,0 +1,145 @@
+body{
+    margin: 0;
+}
+
+nav{
+    width: 100%;
+    padding: 15px 0;
+}
+
+.main-home-nav{
+    display:flex;
+    justify-content: space-between;
+}
+
+.main-home-nav img{
+    width: 80px;
+    height:80px;
+    margin-left: 30px;
+ 
+}
+
+.main-home-nav ul{
+    display:flex;
+    margin-right: 30px;
+}
+
+.main-home-nav ul li{
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+
+.main-home-nav ul li a{
+    text-decoration:none;
+}
+
+.main-home-nav ul li a:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+.droplist{
+    width: 100%;
+}
+
+.droplist-container{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.droplist-container a{
+    font-size: 20px;
+    font-weight: bold;
+text-decoration: none;
+color: black;
+}
+.main-home-header{
+    background-image: url("https://i.pinimg.com/originals/3f/39/04/3f39048a46979f110df6bc32d801945c.jpg");
+    background-size: cover;
+}
+
+.main-home-header h1{
+    text-align: center;
+}
+
+.main-home-header-description p {
+    padding: 5px 20px;
+    margin: 10px;
+}
+
+
+.main-home-content{
+    background-color: lightblue;
+    width:100%%;
+    
+}
+
+.main-home-content-discover{
+    width: 90%;
+    margin: auto;
+}
+.main-home-content-discover h3{
+    margin:10px 10px 10px 10px;
+    padding: 5px;
+}
+
+.main-home-content img{
+    width: 300px;
+    height:250px;
+}
+.main-home-content-discover-toplist{
+    display:flex;
+    justify-content: space-around;
+}
+
+.main-home-content-discover-middlelist{
+    display:flex;
+    justify-content: space-around;  
+}
+
+.main-home-content-discover-bottomlist{
+    display:flex;
+    justify-content: space-around;
+}
+
+.main-home-content-story{
+width: 90%;
+margin: auto;
+}
+
+
+.main-home-content-story-sarah{
+    display:flex;
+    justify-content: space-around;
+}
+
+.main-home-content-story-sarah-video iframe{
+width:  400px;
+height: 350px;
+padding:50px;
+}
+
+.main-home-content-story-sarah-description p{
+    margin: 150px 50px;
+    padding:20px
+}
+
+.main-home-location h3{
+text-align: center;
+}
+.main-home-location-content{
+    display: flex;
+    justify-content: center;
+}
+
+.main-home-subscription h3{
+    text-align: center;
+}
+
+.main-home-subscription-form{
+    display:flex;
+    justify-content: space-around;
+}

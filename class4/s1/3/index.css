@@ -1,0 +1,233 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+nav {
+  position: fixed;
+  z-index: 1030;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 56px;
+  width: 100%;
+  background-color: #343a40;
+  display: flex;
+  justify-content: center;
+}
+
+.navContainer {
+  width: 100%;
+  max-width: 1110px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navBar {
+  display: flex;
+  align-items: center;
+}
+
+.home-nav-brand {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.home-nav-div-homeLink {
+  color: white;
+}
+
+.home-nav-homelinks {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.home-nav-links a {
+  padding: 8px;
+}
+
+a {
+  color: rgba(225, 225, 225, 0.5);
+  text-decoration: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+a:hover {
+  cursor: pointer;
+  color: rgba(225, 225, 225, 0.75);
+  transition-duration: 1.5m;
+}
+
+header {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.headerContainer {
+  height: 218px;
+  width: 1046px;
+  padding: 64px 32px;
+  margin: 24px 0;
+  background-color: #e9ecef;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #212529;
+  display: block;
+  position: relative;
+  top: 56px;
+  border-radius: 5px;
+}
+
+.headerContainer h1 {
+  font-size: 72px;
+  font-weight: 300;
+  margin-bottom: 8px;
+}
+
+.headerContainer p {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+  margin-bottom: 16px;
+}
+
+.home-header-aContainer {
+  display: flex;
+}
+
+.home-header-aContainer :hover {
+  transition-duration: 0.15s;
+  color: white;
+  background-color: #0062cc;
+  border-color: #005cbf;
+}
+
+.headerContainer a {
+  height: 30px;
+  width: 118.547px;
+  padding: 8px 16px;
+  border: 1px solid #007bff;
+  font-size: 20px;
+  font-weight: 400;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  line-height: 30px;
+}
+
+.home-header-elements {
+  padding: 0;
+  margin: 0;
+}
+
+section {
+  height: 453.438px;
+  width: 100%;
+  padding-top: 55.5px;
+  display: flex;
+  justify-content: center;
+}
+
+.home-section {
+  display: flex;
+  justify-content: space-evenly;  
+  width: 1140px;
+}
+
+.home-sectionContainer {
+  height: 427.438px;
+  width: 253px;
+  padding: 0;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 4px;
+  margin: 0 15px;
+  background-color: white;  
+  display: block;
+}
+
+.home-sectionContainer img {
+  height: 164.438px;
+  width: 253px;
+}
+
+.home-card-body {
+  height: 160px;
+  width: 213px;
+  padding: 20px;
+  color: #212529;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  display: block;
+  text-align: center;
+}
+
+.home-card-body h3 {
+  width: 213px;
+  height: 28px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28.8px;
+  margin-bottom: 12px;
+  margin-top: 0;
+  padding: 0;
+}
+
+.home-card-body p {
+  width: 213px;
+  height: 96px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.home-card-button {
+  width: 213px;
+  height: 38px;
+  padding: 12px 20px;
+  margin: 0;
+  border-top: rgba(0, 0, 0, 0.125) solid 1px;
+  background-color: rgba(0, 0, 0, 0.03);
+}
+
+.home-card-button-aContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-card-button-aContainer a {
+  display: inline-block;
+  width: 107.828px;
+  height: 24px;
+  padding: 6px 12px;
+  border: rgb(0, 123, 255) solid 1px;
+  border-radius: 4px;
+  background-color: rgb(0, 123, 255);
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+  justify-content: center;
+}
+
+.home-card-button-aContainer a:hover {
+  color: white;
+  background-color: #0062cc;
+  border-color: #005cbf;
+}
+
+footer {
+  height: 120px;
+  width: 100%;
+  background-color: #343a40;
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
