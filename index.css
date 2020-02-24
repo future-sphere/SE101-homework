@@ -1,11 +1,15 @@
 html,
 body {
 	overflow-x: hidden; /* Prevent scroll on narrow devices */
+	background-color: #343a40;
 }
-
+#body .jumbotron{
+	background-color: #fff;
+}
 .jumbotron {
 	height: 100vh;
 	padding-top: 15px !important;
+	background-color: #e9ecef;
 }
 @media (max-width: 991.98px) {
 	.offcanvas-collapse {
@@ -84,4 +88,7 @@ body {
 }
 .lh-150 {
 	line-height: 1.5;
+}
+.box{
+	background-color: #e9ecef;
 }
