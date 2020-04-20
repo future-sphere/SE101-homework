@@ -3,7 +3,7 @@ body {
 	overflow-x: hidden; /* Prevent scroll on narrow devices */
 	background-color: #343a40;
 }
-#body .jumbotron{
+#body .jumbotron {
 	background-color: #fff;
 }
 .jumbotron {
@@ -11,6 +11,20 @@ body {
 	padding-top: 15px !important;
 	background-color: #e9ecef;
 }
+
+a.disabled {
+	pointer-events: none;
+	cursor: not-allowed;
+}
+
+.disabled strong {
+	color: #e9e9e9;
+}
+
+a.disabled:hover {
+	cursor: not-allowed;
+}
+
 @media (max-width: 991.98px) {
 	.offcanvas-collapse {
 		position: fixed;
@@ -89,6 +103,6 @@ body {
 .lh-150 {
 	line-height: 1.5;
 }
-.box{
+.box {
 	background-color: #e9ecef;
 }
