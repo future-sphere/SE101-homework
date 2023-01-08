@@ -1,0 +1,20 @@
+kind: pipeline
+type: docker
+name: default
+
+steps:
+- name: deploy
+  image: plugins/s3-sync:1
+  settings:
+    delete: true
+    bucket: homework.thefuturesphere.com
+    access_key: 
+      from_secret: AWS_ID
+    secret_key:
+      from_secret: AWS_KEY
+    acl: public-read
+    source: ./
+    target: /
+    when:
+      branch:
+      - master
